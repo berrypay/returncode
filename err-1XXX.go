@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 04:57:38 +0800
+ * Last Modified: Tuesday September 5th 2023 05:10:36 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -16,7 +16,7 @@ package returncode
 // Bad Request
 const (
 	// General Error
-	ERR1000 AppReturnCode = iota + 1000
+	ERR1000 int = iota + 1000
 	// Header: Trace ID Missing
 	ERR1001
 	// Header: Partner ID Missing
@@ -32,7 +32,7 @@ const (
 // Security Error
 const (
 	// General Request Security Security Error
-	ERR1100 AppReturnCode = iota + 1100
+	ERR1100 int = iota + 1100
 	// Signature Missing
 	ERR1101
 	// Signature Not Matched
@@ -46,7 +46,7 @@ const (
 // Input Validation Error
 const (
 	// General Input Validation Error
-	ERR1200 AppReturnCode = iota + 1200
+	ERR1200 int = iota + 1200
 	// Invalid input format
 	ERR1201
 	// Input validation error
@@ -62,7 +62,7 @@ const (
 // Response Error
 const (
 	// General Response Error
-	ERR1300 AppReturnCode = iota + 1300
+	ERR1300 int = iota + 1300
 	// Record not found
 	ERR1301
 	// Record already exists

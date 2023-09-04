@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 05:01:43 +0800
+ * Last Modified: Tuesday September 5th 2023 05:10:43 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -16,7 +16,7 @@ package returncode
 // Internal Server Error
 const (
 	// General server error
-	ERR2000 AppReturnCode = iota + 2000
+	ERR2000 int = iota + 2000
 	// General Data Processing Error
 	ERR2001
 )
@@ -24,7 +24,7 @@ const (
 // Internal Server Error: Web Server Engine
 const (
 	// HTTP Server Error
-	ERR2100 AppReturnCode = iota + 2100
+	ERR2100 int = iota + 2100
 	// Server Connectivity Error
 	ERR2101
 )
@@ -32,7 +32,7 @@ const (
 // Internal Server Error: MQ Server Engine
 const (
 	// MQ Server Error
-	ERR2200 AppReturnCode = iota + 2200
+	ERR2200 int = iota + 2200
 	// MQ Connectivity Error
 	ERR2201
 )

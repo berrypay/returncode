@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 04:56:53 +0800
+ * Last Modified: Tuesday September 5th 2023 05:10:53 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -16,7 +16,7 @@ package returncode
 // Provider Service Error
 const (
 	// General partner service operation Error
-	ERR4000 AppReturnCode = iota + 4000
+	ERR4000 int = iota + 4000
 	// API invalid credential
 	ERR4001
 	// API call timeout

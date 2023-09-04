@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 05:00:07 +0800
+ * Last Modified: Tuesday September 5th 2023 05:10:49 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -16,14 +16,14 @@ package returncode
 // Internal Server Error: DB
 const (
 	// Repository client (PostgreSQL) error
-	ERR3000 AppReturnCode = iota + 3000
+	ERR3000 int = iota + 3000
 	// DB operation error
 	ERR3001
 )
 
 const (
 	// Repository client (MySQL) error
-	ERR3100 AppReturnCode = iota + 3100
+	ERR3100 int = iota + 3100
 	// DB operation error
 	ERR3101
 )

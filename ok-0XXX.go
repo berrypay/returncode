@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 04:57:10 +0800
+ * Last Modified: Tuesday September 5th 2023 05:10:56 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -16,7 +16,7 @@ package returncode
 // Generic OK Status
 const (
 	// success OK
-	OK0000 AppReturnCode = iota
+	OK0000 int = iota
 	// OK, but with warning
 	OK0001
 )
