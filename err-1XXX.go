@@ -41,6 +41,8 @@ const (
 	ERR1103
 	// Signing Key Fetching Error
 	ERR1104
+	// CRC Check Error
+	ERR1105
 )
 
 // Input Validation Error
