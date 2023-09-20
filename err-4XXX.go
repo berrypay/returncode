@@ -27,4 +27,6 @@ const (
 	ERR4004
 	// API call response payload signature verification error
 	ERR4005
+	// API call method not allowed
+	ERR4006
 )
