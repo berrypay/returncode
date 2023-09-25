@@ -29,4 +29,6 @@ const (
 	ERR4005
 	// API call method not allowed
 	ERR4006
+	// API call response resource not found
+	ERR4007
 )
