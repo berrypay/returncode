@@ -31,4 +31,6 @@ const (
 	ERR4006
 	// API call response resource not found
 	ERR4007
+	// API call request requirement not met
+	ERR4008
 )
