@@ -5,7 +5,7 @@
  * Author: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * Company: BerryPay (M) Sdn. Bhd.
  * --------------------------------------
- * Last Modified: Tuesday September 5th 2023 05:10:53 +0800
+ * Last Modified: Tuesday June 4th 2024 12:35:05 +0800
  * Modified By: Sallehuddin Abdul Latif (sallehuddin@berrypay.com)
  * --------------------------------------
  * Copyright (c) 2023 BerryPay (M) Sdn. Bhd.
@@ -33,4 +33,6 @@ const (
 	ERR4007
 	// API call request requirement not met
 	ERR4008
+	// API call failed with empty response
+	ERR4009
 )
